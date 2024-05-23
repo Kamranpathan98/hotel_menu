@@ -1,0 +1,83 @@
+/* menuItems.css */
+
+.menu {
+  padding: 2rem;
+  background-color: #01461b;
+  text-align: center;
+}
+
+.tabs {
+  margin-bottom: 2rem;
+}
+
+.menuBtn {
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  border: none;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menuBtn.active,
+.menuBtn:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  height: calc(100vh - 10rem); /* Adjust for header and padding */
+}
+
+.menu-left {
+  flex: 1;
+  background-color: #01461b;
+  color: #ffc107;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #01461b;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Scrollable if content overflows */
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item-name {
+  color: #ffc107;
+  font-size: 1.6rem;
+}
+
+.menu-item-price {
+  color: #ffc107;
+  font-size: 1.6rem;
+}
+
+.menu-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the div */
+}

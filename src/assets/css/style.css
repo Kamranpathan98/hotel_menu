@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
   /* background: #02481d; */
-  background: linear-gradient(90deg, rgb(0 0 0 / 90%), #01461b);
+  background: #01461b;
   overflow-x: hidden;
 }
 
@@ -104,7 +104,7 @@ section {
   color: #fff;
   cursor: pointer;
   font-size: 2.5rem;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .header .icons div:hover {
@@ -184,7 +184,7 @@ section {
 }
 
 .header .cart-items-container .cart-item .fa-times:hover {
-  color: #ffc107;
+  color: #f0d175;
 }
 
 .header .cart-items-container .cart-item img {
@@ -308,7 +308,7 @@ section {
 }
 
 .menu .box-container .box:hover {
-  background: #dca80a;
+  background: #fdcb35;
   transition: 0.5s;
 }
 

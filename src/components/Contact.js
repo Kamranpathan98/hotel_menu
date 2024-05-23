@@ -8,12 +8,12 @@ const Contact = () => {
           <span>contact</span> us
         </h1>
         <div class="row">
-          <iframe
-            class="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11993.267641772954!2d-72.8480109!3d41.2802068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36c6fa619c4f5603!2sMcDonald&#39;s!5e0!3m2!1sen!2s!4v1633364807635!5m2!1sen!2s"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+        <iframe 
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1892.1542033112983!2d73.8901822!3d18.4696844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb7348e2457b%3A0x88bdf2b037e5f96d!2sGulbarga%20Tahari%20And%20Biryani!5e0!3m2!1sen!2sin!4v1697542824158!5m2!1sen!2sin" 
+        allowfullscreen="" 
+        loading="lazy" 
+        ></iframe>
 
           <form action="">
             <h3>get in touch</h3>

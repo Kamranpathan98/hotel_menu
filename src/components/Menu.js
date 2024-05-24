@@ -30,7 +30,7 @@ const Menu = () => {
           {filteredMenu.map((item, index) => (
             <div className="menu-item" key={index}>
               <span className="menu-item-name">{item.name}</span>
-              <span className="menu-item-price">${item.price}</span>
+              <span className="menu-item-price">$ 500</span>
             </div>
           ))}
         </div>

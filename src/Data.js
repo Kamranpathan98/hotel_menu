@@ -86,4 +86,72 @@ const blog = [
     img: blogImage3,
   },
 ];
-export { menu, cart, product, review, blog };
+
+const menuList = [
+  {
+    name: "Chicken Tandoori",
+    price: "Rs. 290/180",
+    category: "starter"
+  },
+  {
+    name: "Butter Tandoori",
+    price: "Rs. 400/230",
+    category: "starter"
+  },
+  {
+    name: "Afgani Tandoori",
+    price: "Rs. 400/240",
+    category: "starter"
+  },
+  {
+    name: "Chicken Tikka",
+    price: "Rs. 190",
+    category: "starter"
+  },
+  {
+    name: "Angara Tikka",
+    price: "Rs. 200",
+    category: "starter"
+  },
+  {
+    name: "Sholay Kabab",
+    price: "Rs. 210",
+    category: "starter"
+  },
+  {
+    name: "Malayi Tikka",
+    price: "Rs. 200",
+    category: "starter"
+  },
+  {
+    name: "Chicken Leg",
+    price: "Rs. 110",
+    category: "starter"
+  },
+  {
+    name: "Chicken Garlic Kebab",
+    price: "Rs. 220",
+    category: "starter"
+  },
+  {
+    name: "Roasted Kebab",
+    price: "Rs. 210",
+    category: "starter"
+  },
+  {
+    name: "Chicken Lasoni Kebab",
+    price: "Rs. 200",
+    category: "starter"
+  },
+  {
+    name: "Chicken Achari Kebab",
+    price: "Rs. 200",
+    category: "starter"
+  },
+  {
+    name: "Resmi Kebab",
+    price: "Rs. 200",
+    category: "starter"
+  },
+];
+export { menu, cart, product, review, blog, menuList };

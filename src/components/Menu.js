@@ -4,7 +4,7 @@ import "../assets/css/menuItems.css"; // Import CSS file for Menu component
 import chickenBiryaniImg from "../img/biry2.jpg"; // Add your image path
 
 const Menu = () => {
-  const [activeTab, setActiveTab] = useState("starter");
+  const [activeTab, setActiveTab] = useState("Starter");
 
   const handleTabClick = (category) => {
     setActiveTab(category);
@@ -19,10 +19,16 @@ const Menu = () => {
       </h1>
 
       <div className="tabs">
-        <button className={`${activeTab === "starter" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("starter")}>Starter's</button>
-        <button className={`${activeTab === "breakfast" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("breakfast")}>Breakfast</button>
-        <button className={`${activeTab === "lunch" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("lunch")}>Lunch</button>
-        <button className={`${activeTab === "dinner" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("dinner")}>Dinner</button>
+        <button className={`${activeTab === "Starter" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Starter")}>Starter's</button>
+        <button className={`${activeTab === "Gulbarga specials" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Gulbarga specials")}>Gulbarga spe.</button>
+        <button className={`${activeTab === "Chicken Gravy's" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Chicken Gravy's")}>Chicken Gravy's</button>
+        <button className={`${activeTab === "Beef Gravy's" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Beef Gravy's")}>Beef Gravy's</button>
+        <button className={`${activeTab === "Veg Gravy's" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Veg Gravy's")}>Veg Gravy's</button>
+        <button className={`${activeTab === "Egg Gravy's" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Egg Gravy's")}>Egg Gravy's</button>
+        <button className={`${activeTab === "Roti" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Roti")}>Roti</button>
+        <button className={`${activeTab === "Rice" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Rice")}>Rice</button>
+        <button className={`${activeTab === "Special's" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Special's")}>Special</button>
+        <button className={`${activeTab === "Sweet" ? "active" : ""} menuBtn`} onClick={() => handleTabClick("Sweet")}>Sweets</button>
       </div>
 
       <div className="menu-container">
@@ -34,10 +40,6 @@ const Menu = () => {
             </div>
           ))}
         </div>
-
-        {/* <div className="menu-right">
-          <img className="menu-image" src={chickenBiryaniImg} alt="Chicken Biryani" />
-        </div> */}
       </div>
     </section>
   );

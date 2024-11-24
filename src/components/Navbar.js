@@ -14,9 +14,8 @@ const Navbar = () => {
           <img src={Logo} alt="" />
         </a>
         <nav className="navbar" ref={navbarRef}>
-          <a href="#home">Home</a>
+          <a href="#">Home</a>
           <a href="#menu">Menu</a>
-          <a href="#products">Products</a>
           <a href="#contact">Contact</a>
         </nav>
         <div className="icons">

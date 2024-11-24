@@ -7,7 +7,45 @@
 }
 
 .tabs {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: center; /* Centers the tabs in the container */
+  gap: 1rem; /* Space between tabs */
   margin-bottom: 2rem;
+}
+
+.tab {
+  flex: 1 1 calc(33.33% - 1rem); /* Each tab takes 1/3 of the row with spacing */
+  max-width: calc(33.33% - 1rem); /* Ensures the tab doesn't grow beyond 1/3 */
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #e9ecef;
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+/* Mobile View (smaller screens) */
+@media (max-width: 768px) {
+  .tab {
+    flex: 1 1 calc(100% - 1rem); /* Tabs take full width on smaller screens */
+    max-width: calc(100% - 1rem);
+  }
 }
 
 .menuBtn {

@@ -3,7 +3,12 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <section className="home" id="home">
+    <div class="full-page-image">
+  {/* <div class="overlay">
+    Welcome to Our Website!
+  </div> */}
+</div>
+      {/* <section className="home" id="home">
         <div className="content">
           <h3>
             fresh <span>food in the </span>morning
@@ -16,7 +21,7 @@ const Home = () => {
             get yours now
           </a>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

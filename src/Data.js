@@ -604,28 +604,28 @@ const menuList = [
    
     name: "Veg-Do-Pyza",
     price: "Rs. 120(serve 2)",
-    category: "Beef Gravy's"
+    category: "Veg Gravy's"
    },
    {
     name: "Butter Veg masala",
     price: "Rs. 120(serve 2)",
-    category: "Beef Gravy's"
+    category: "Veg Gravy's"
    },
    
    {
     name: "Veg Angara",
     price: "Rs. 120(serve 2)",
-    category: "Beef Gravy's"
+    category: "Veg Gravy's"
    },
    {
     name: "Veg Lajawab",
     price: "Rs. 140(serve 2)",
-    category: "Beef Gravy's"
+    category: "Veg Gravy's"
    },
    {
     name: "Veg Shahi",
     price: "Rs. 130(serve 2)",
-    category: "Beef Gravy's"
+    category: "Veg Gravy's"
    },
    {
     name: "Paneer Masala",

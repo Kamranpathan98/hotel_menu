@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Logo from "../assets/images/Logo3.png";
+import Logo from "../assets/images/Nav-Logo1.png";
 
 const Navbar = () => {
   const navbarRef = useRef();
